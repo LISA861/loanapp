@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Statement</title>
+    <link class="custom" rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <div>
+        <div class="container">
+            <h1>Account Statement</h1>
+            <p>Input Account ID here...</p>
+            <input type="number" id="accountIdInput" placeholder="Account ID" required>
+            <button id="getAccountStatement" type="button">Get Account Statement</button>
+            <a href="/other/statements.html" class="back-link"><button>⬅️ Back to Statements Section</button></a>
+        </div>
+        <br>
+        <div id="accountDisplay" class="container"></div>
+
+    </div>
+
+    <div class="top-right">
+        <a href="/other/customize.html" class="customize-btn"><button>Customize</button></a>
+    </div>
+
+    <script src="/js/accountstatement.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
